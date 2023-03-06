@@ -1,4 +1,4 @@
-import 'package:dost/chat_screen.dart';
+import 'package:Dost/chat_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {

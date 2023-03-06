@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:dost/threedots.dart';
+import 'package:Dost/threedots.dart';
 import 'package:flutter/material.dart';
 import 'package:chat_gpt_sdk/chat_gpt_sdk.dart';
 // ignore: depend_on_referenced_packages
