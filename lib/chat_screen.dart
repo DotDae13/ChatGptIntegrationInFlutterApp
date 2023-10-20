@@ -51,7 +51,7 @@ class _ChatScreenState extends State<ChatScreen> {
     CompleteText(prompt: message.text, model: kTranslateModelV3);
 
   _subscription = openAI
-      !.build(token: "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")
+      !.build(token: "YOUR_API_KEY(Generate from OpenAI")
       .onCompleteStream(request: request)
       .listen((response) {
     Vx.log(response!.choices[0].text);
